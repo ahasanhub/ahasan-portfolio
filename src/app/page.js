@@ -17,7 +17,7 @@ export default function Home() {
         ></Image>
         <div className="hero-container" data-aos="fade-in">
           <h1>Ahasan Habib</h1>
-          <p>I'm Proficient at<span className="typed"
+          <p>I'm<span className="typed"
             data-typed-items="Full-Stack Developer, Freelancer, Software Architect, Dynamics 365 Developer"></span></p>
         </div>
       </section>
