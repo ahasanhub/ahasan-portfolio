@@ -5,7 +5,7 @@ export default function Blog() {
                 <div class="container">
 
                     <div class="section-title">
-                        <h2>About</h2>
+                        <h2>About Me</h2>
                         <p>Highly skilled and innovative Software Engineer with 14+ years of expertise in challenging environments.
                             Demonstrated
                             expertise in delivering creative and performance-driven solutions with a strong focus on development. Strong
