@@ -7,6 +7,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   /* font-family: "Open Sans", sans-serif; */
   color: #272829;
