@@ -20,13 +20,14 @@ const PostPage = (props) => {
     const slug = props.params.slug;
     const post = getPost(slug);
     return (
-        <div>
-            <h1>{post.data.title}</h1>
-            <article class="prose lg:prose-xl">
-                <Markdown>{post.content}</Markdown>
-            </article>
-
-        </div>
+        <main id='main'>
+            <div className='mx-6 mt-6'>
+                <h1>{post.data.title}</h1>
+                <article class="prose lg:prose-xl">
+                    <Markdown>{post.content}</Markdown>
+                </article>
+            </div>
+        </main>
     );
 }
 export default PostPage;

@@ -6,7 +6,9 @@ export default function BlogPage() {
     const postPreview = postMetadata.map((post) =>
         <PostPreview key={post.slug}{...post}></PostPreview>);
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreview}</div>
+        <main id="main">
+            <div className="mx-6 mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">{postPreview}</div>
+        </main>
     );
 }
 
