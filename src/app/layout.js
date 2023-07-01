@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning={true} className={inter.className}>
         {/* ======= Mobile nav toggle button ======= */}
-        {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
+        <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
         <header id="header">
           <div className="d-flex flex-column">
 
