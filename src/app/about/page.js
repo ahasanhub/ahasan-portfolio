@@ -1,9 +1,9 @@
 const AboutPage = () => {
-    return (<main id="main">
+    return (
         <div>
             <h1>About page</h1>
         </div>
-    </main>);
+    );
 
 }
 
