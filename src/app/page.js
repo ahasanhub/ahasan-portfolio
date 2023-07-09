@@ -1,29 +1,14 @@
+
 import Image from 'next/image'
 import styles from './page.module.css'
-import bg from '/public/img/hero-bg.jpg'
 import profilePic from '/public/img/profile-img.jpg'
+import HeroSection from '@/components/HeroSection';
 
 export default function Home() {
 
   return (
     <>
-      <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
-        <Image
-          src={bg}
-          fill
-          sizes="100vw"
-          style={{ objectFit: "cover" }}
-          quality={100}
-        ></Image>
-        <div className="hero-container" data-aos="fade-in">
-          <h1>Ahasan Habib</h1>
-          <p>I'm<span className="typed"
-            data-typed-items="Full-Stack Developer, Freelancer, Software Architect, Dynamics 365 Developer"></span></p>
-        </div>
-      </section>
-
-
-
+      <HeroSection></HeroSection>
       <section id="about" className="about">
         <div className="container">
 
