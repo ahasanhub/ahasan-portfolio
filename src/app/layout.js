@@ -1,4 +1,4 @@
-"use client"
+
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons/css/boxicons.min.css'
