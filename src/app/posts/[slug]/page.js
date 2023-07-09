@@ -22,7 +22,7 @@ const PostPage = (props) => {
     return (
         <div className='mx-6 mt-6'>
             <h1>{post.data.title}</h1>
-            <article class="prose lg:prose-xl">
+            <article className="prose lg:prose-xl">
                 <Markdown>{post.content}</Markdown>
             </article>
         </div>
