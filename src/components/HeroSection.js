@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import bg from '/public/img/hero-bg.jpg'
 import { TypeAnimation } from 'react-type-animation';
+
 const HeroSection = () => {
     return (<section id="hero" className="d-flex flex-column justify-content-left align-items-left">
         <Image
@@ -13,7 +14,7 @@ const HeroSection = () => {
         ></Image>
         <div className='hero-container' >
             <h1>Ahasan Habib</h1>
-            <p>I'm <TypeAnimation
+            <p><strong>I'm </strong><TypeAnimation
                 sequence={[
                     'Full-Stack Software Developer',
                     2000,
