@@ -4,7 +4,7 @@ import profilepic from '/public/img/profile-img.jpg'
 
 const SideBar = () => {
     return <header id="header">
-        <div className="d-flex flex-column">
+        <div className="">
 
             <div className="profile">
                 <Image src={profilepic} alt="profile picture" className="img-fluid rounded-circle"></Image>

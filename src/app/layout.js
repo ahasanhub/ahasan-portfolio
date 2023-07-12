@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={inter.className}>
-        {/* <i className="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
+        <i className="bi bi-facebook mobile-nav-toggle d-xl-none"></i>
         <SideBar></SideBar>
         <main id="main">{children}</main>
       </body>

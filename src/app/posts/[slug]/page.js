@@ -21,7 +21,7 @@ const PostPage = (props) => {
     const post = getPost(slug);
     return (
         <div className='mx-6 mt-6'>
-            <h1>{post.data.title}</h1>
+            <h3 style={{ fontSize: 40, fontWeight: 'bold' }}>{post.data.title}</h3>
             <article className="prose lg:prose-xl">
                 <Markdown>{post.content}</Markdown>
             </article>
