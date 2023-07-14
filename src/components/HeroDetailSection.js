@@ -39,7 +39,7 @@ const HeroDetailSection = () => {
                         <Image src={fullStackDevelopment} className='img-fluid' alt='profile picture'></Image>
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-                        <h3>Dynamics 365 BC/NAV Development</h3>
+                        <h3>Microsoft Dynamics 365, Business Central/Navision Development</h3>
                         <p className="fst-italic">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             dolore

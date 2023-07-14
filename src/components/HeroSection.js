@@ -5,13 +5,14 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
-        <section id="hero" className="d-flex flex-column justify-content-left align-items-left">
+        <section id="hero" className="relative">
             <Image
                 src={bg}
-                fill
-                sizes="100vw"
-                style={{ objectFit: "cover" }}
-                quality={100}
+                 
+                 fill                
+                 sizes="100vw"
+                //style={{ objectFit: "cover" }}
+                 quality={100}
             ></Image>
             <div className='hero-container' >
                 <h1>Ahasan Habib</h1>
@@ -24,6 +25,8 @@ const HeroSection = () => {
                         'Software  Generalist',
                         2000,
                         'Software Architect',
+                        2000,
+                        'Technology Enthusiast',
                         2000,
                         'Team Lead',
                         2000,
