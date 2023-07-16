@@ -16,7 +16,7 @@ const HeroSection = () => {
             ></Image>
             <div className='hero-container' >
                 <h1>Ahasan Habib</h1>
-                <p><strong>I'm </strong><TypeAnimation
+                <p><strong className='text-rose-600'>I'm </strong><TypeAnimation
                     sequence={[
                         'Full-Stack Software Developer',
                         2000,

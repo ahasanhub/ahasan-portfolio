@@ -55,9 +55,9 @@ export default function Navbar() {
                       /> */}
                     </div>
                     <div className="flex flex-shrink-0 items-center mx-4">
-                      <h1 className="cursor-pointer text-white text-xl font-semibold ">
+                      <a href='/'><h1 className="cursor-pointer text-white text-xl font-semibold ">
                         Ahasan<span className="text-rose-600">Hub</span>
-                      </h1>
+                      </h1></a>
                     </div>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
