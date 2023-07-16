@@ -56,7 +56,7 @@ export default function Navbar() {
                     </div>
                     <div className="flex flex-shrink-0 items-center mx-4">
                       <h1 className="cursor-pointer text-white text-xl font-semibold ">
-                        Ahasan<span className="text-violet-500">Hub</span>
+                        Ahasan<span className="text-rose-600">Hub</span>
                       </h1>
                     </div>
                     <div className="hidden md:block">
