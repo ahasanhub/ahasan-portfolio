@@ -2,6 +2,15 @@
 title: "Using AI to generate poetry"
 subtitle: "I used GPT-3 to generate poetry and other creative content."
 date: "2021-08-27"
+description: "Create an AWS account and set up CLI/SDK access."
+author: "Ahasan Habib"
+categories: ["AWS","Cloud"]
+tags: ["AWS","Cloud","web"]
+image: "next.js.png"
+images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
+relatedPosts: []
+slug: "gpt-3-generated-poetry"
+draft: false
 ---
 
 I was recently granted access to the [OpenAI GPT-3 Beta](https://beta.openai.com/), a very powerful language model that can be used to do all sorts of magic like chat bot generation, article summary, and a [lot more cool stuff](https://beta.openai.com/examples).

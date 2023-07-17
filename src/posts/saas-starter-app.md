@@ -2,6 +2,15 @@
 title: "Building a serverless SaaS product"
 subtitle: "A full-stack SaaS project with authentication and payments."
 date: "2021-07-12"
+description: "Create an AWS account and set up CLI/SDK access."
+author: "Ahasan Habib"
+categories: ["AWS","Cloud"]
+tags: ["AWS","Cloud","web"]
+image: "images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
+images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
+relatedPosts: []
+slug: "saas-starter-app"
+draft: false
 ---
 
 The [SaaS (software as a service)](https://en.wikipedia.org/wiki/Software_as_a_service) model underpins many of today's successful new businesses. Knowing how to build one from start to finish is probably a useful addition to any software developer's skill set.

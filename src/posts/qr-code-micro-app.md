@@ -2,6 +2,15 @@
 title: "Building a QR code micro-app"
 subtitle: "Build a serverless 'hello-world' QR code app with Python and AWS."
 date: "2021-08-14"
+description: "Create an AWS account and set up CLI/SDK access."
+author: "Ahasan Habib"
+categories: ["AWS","Cloud"]
+tags: ["AWS","Cloud","web"]
+image: "images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
+images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
+relatedPosts: []
+slug: "qr-code-micro-app"
+draft: false
 ---
 
 Ever since the pandemic started, I've noticed QR codes creeping into my daily life. Venue check-ins, digital menus at restaurants, and online payments.

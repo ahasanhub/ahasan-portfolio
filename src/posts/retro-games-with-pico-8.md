@@ -2,7 +2,15 @@
 title: "Create retro games with PICO-8"
 subtitle: "8-bit games are a great way to learn and expand your portfolio."
 date: "2020-12-19"
-cr: ["https://www.artstation.com/shizuorin"]
+description: "Create an AWS account and set up CLI/SDK access."
+author: "Ahasan Habib"
+categories: ["AWS","Cloud"]
+tags: ["AWS","Cloud","web"]
+image: "images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
+images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
+relatedPosts: []
+slug: "retro-games-with-pico-8"
+draft: false
 ---
 
 After watching [High Score](https://www.youtube.com/watch?v=B4jopG1wX88) on Netflix, I was suddenly inspired to develop a retro-style game. I think it was a combination of the aesthetics and nostalgia that motivated me.

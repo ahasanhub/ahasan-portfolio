@@ -2,9 +2,10 @@ import path from 'path';
 import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
-import getPostMetadata from '@/components/getPostMetadata';
+import getPostMetadata from '@/utils/getPostMetadata';
 import Image from 'next/image'
 import profilePic from '/public/img/profile-img.jpg'
+import bp from '/public/images/thumbnail/npm-commands.png'
 
 
 const getPost = (slug) => {
@@ -19,13 +20,13 @@ export const generateStaticParams = async () => {
     return posts.map((post) => ({ slug: post.slug }));
 }
 
-const PostPage = (props) => {
-    const slug = props.params.slug;
+const PostPage = ({params}) => {
+    const slug = params.slug;
     const post = getPost(slug);
     return (
         <div className='mx-12 mt-6'>
             <h3 style={{ fontSize: 40, fontWeight: 'bold' }}>{post.data.title}</h3>
-            <div className="relative mt-8 flex items-center gap-x-4">
+            <div className="relative mt-1 flex items-center gap-x-4">
                 <Image src={profilePic} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">
@@ -38,6 +39,10 @@ const PostPage = (props) => {
                 </div>
               </div>
             <article className="prose lg:prose-xl">
+              <div className='m-3'>
+                   <Image src={bp} full quality={100} alt="placeholder img"/>
+              </div>
+              
                 <Markdown>{post.content}</Markdown>
             </article>
         </div>

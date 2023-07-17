@@ -2,6 +2,15 @@
 title: "Wolfhunter: A PICO-8 RPG"
 subtitle: "Implementing Pokemon-like combat mechanics in PICO-8."
 date: "2020-12-22"
+description: "Create an AWS account and set up CLI/SDK access."
+author: "Ahasan Habib"
+categories: ["AWS","Cloud"]
+tags: ["AWS","Cloud","web"]
+image: "images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
+images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
+relatedPosts: ["aws-quickstart",saas-starter-app]
+slug: "aws-quickstart"
+draft: false
 ---
 
 In a [previous post](./retro-games-with-pico-8) I talked about how making retro 8-bit games is a great way for fledgling developers to learn new things whilst expanding their portfolio.
