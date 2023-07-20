@@ -1,13 +1,13 @@
 
 import Image from 'next/image';
-import profilepic from '/public/img/profile-img.jpg'
+
 
 const SideBar = () => {
     return <header id="header">
         <div className="">
 
             <div className="profile">
-                <Image src={profilepic} alt="profile picture" className="img-fluid rounded-circle"></Image>
+                <Image src="/images/site/profile-img.jpg" alt="profile picture" className="img-fluid rounded-circle"></Image>
 
                 <h1 className="text-light"><a href="index.html">Ahasan Habib</a></h1>
                 <div className="social-links mt-3 text-center">

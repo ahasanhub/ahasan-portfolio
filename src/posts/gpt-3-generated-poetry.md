@@ -6,8 +6,8 @@ description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
 categories: ["AWS","Cloud"]
 tags: ["AWS","Cloud","web"]
-image: "next.js.png"
-images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
+image: "/images/thumbnail/next.js.png"
+images: ["/images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
 relatedPosts: []
 slug: "gpt-3-generated-poetry"
 draft: false

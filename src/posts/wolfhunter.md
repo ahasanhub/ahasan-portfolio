@@ -6,7 +6,7 @@ description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
 categories: ["AWS","Cloud"]
 tags: ["AWS","Cloud","web"]
-image: "images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
+image: "/images/thumbnail/the-snap-store.png"
 images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
 relatedPosts: ["aws-quickstart",saas-starter-app]
 slug: "aws-quickstart"

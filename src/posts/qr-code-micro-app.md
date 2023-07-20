@@ -6,7 +6,7 @@ description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
 categories: ["AWS","Cloud"]
 tags: ["AWS","Cloud","web"]
-image: "images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
+image: "/images/thumbnail/npm-commands.png"
 images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
 relatedPosts: []
 slug: "qr-code-micro-app"

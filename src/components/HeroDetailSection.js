@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import fullStackDevelopment from '/public/img/full-stack-development.png'
+import fullstack from 'public/images/site/full-stack-development.png'
 
 const HeroDetailSection = () => {
     return (
@@ -11,7 +11,7 @@ const HeroDetailSection = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-right">
-                        <Image src={fullStackDevelopment} className='img-fluid' alt='profile picture'></Image>
+                        <Image src={fullstack} className='img-fluid' alt='profile picture'></Image>
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Full Stack Development</h3>
@@ -36,7 +36,7 @@ const HeroDetailSection = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-right">
-                        <Image src={fullStackDevelopment} className='img-fluid' alt='profile picture'></Image>
+                        <Image src={fullstack} className='img-fluid' alt='profile picture'></Image>
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Microsoft Dynamics 365, Business Central/Navision Development</h3>
@@ -61,7 +61,7 @@ const HeroDetailSection = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-right">
-                        <Image src={fullStackDevelopment} className='img-fluid' alt='profile picture'></Image>
+                        <Image src={fullstack} className='img-fluid' alt='profile picture'></Image>
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Cloud Infra-Architecture</h3>

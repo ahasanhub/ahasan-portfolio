@@ -4,15 +4,15 @@ import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import getPostMetadata from '@/utils/getPostMetadata';
 import Image from 'next/image'
-import profilePic from '/public/img/profile-img.jpg'
-import bp from '/public/images/thumbnail/npm-commands.png'
+import profilePic from '/public/images/site/profile-img.jpg'
+
 
 
 const getPost = (slug) => {
     const folder = path.join(process.cwd(), 'src/posts/');
     const file = `${folder}${slug}.md`;
-    const content = fs.readFileSync(file, "utf-8");
-    return matter(content);
+    const markdownWithMeta = fs.readFileSync(file, "utf-8");    
+    return matter(markdownWithMeta);
 }
 
 export const generateStaticParams = async () => {
@@ -20,9 +20,9 @@ export const generateStaticParams = async () => {
     return posts.map((post) => ({ slug: post.slug }));
 }
 
-const PostPage = ({params}) => {
+const PostPage = ({params}) => {  
     const slug = params.slug;
-    const post = getPost(slug);
+    const post = getPost(slug);   
     return (
         <div className='mx-12 mt-6'>
             <h3 style={{ fontSize: 40, fontWeight: 'bold' }}>{post.data.title}</h3>
@@ -40,7 +40,7 @@ const PostPage = ({params}) => {
               </div>
             <article className="prose lg:prose-xl">
               <div className='m-3'>
-                   <Image src={bp} full quality={100} alt="placeholder img"/>
+                   <Image src={post.data.image} width={700} height={600} quality={100} alt="placeholder img"/>
               </div>
               
                 <Markdown>{post.content}</Markdown>

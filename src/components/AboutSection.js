@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profilePic from '/public/img/profile-img.jpg'
+import profilePic from 'public/images/site/profile-img.jpg'
 
 const AboutSection = () => {
     return (

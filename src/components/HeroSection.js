@@ -1,14 +1,13 @@
 "use client"
 import Image from 'next/image'
-import bg from '/public/img/hero-bg.jpg'
-import { TypeAnimation } from 'react-type-animation';
+import heorBg from 'public/images/site/hero-bg.jpg'
+import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
     return (
         <section id="hero" className="relative">
             <Image
-                src={bg}
-                 
+                src={heorBg}                 
                  fill                
                  sizes="100vw"
                 //style={{ objectFit: "cover" }}
