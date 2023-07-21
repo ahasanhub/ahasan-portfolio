@@ -9,12 +9,13 @@ const PostPreview = ({post}) => {
     
     return (    
     <div className="grid lg:grid-cols-2 border rounded-lg gap-4 h-auto p-4 shadow-md">
-                 <div className="max-w-2xl  h-auto  flex items-center relative ">
+        <Image src={post.frontmatter.image} width={500} height={300} quality={100} alt="placeholder img"/>
+                 {/* <div className="max-w-2xl  h-auto  flex items-center relative ">
                      <Image src={post.frontmatter.image} width={200} height={200} quality={100} alt="placeholder img"/>
                      <div className="bg-green-400  w-24 pt-1  h-8 text-gray-50 font-semibold text-center absolute top-0">
                          Javascript
                      </div>
-                 </div>
+                 </div> */}
                  <div >
                     <Link href={`/posts/${post.slug}`}>
                     <h3 className="text-2xl font-bold text-gray-800 mb-2 ">{post.frontmatter.title}</h3>

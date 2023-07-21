@@ -24,7 +24,7 @@ const PostPage = ({params}) => {
     const slug = params.slug;
     const post = getPost(slug);   
     return (
-        <div className='mx-12 mt-6'>
+        <div className='mx-12 mt-6' >
             <h3 style={{ fontSize: 40, fontWeight: 'bold' }}>{post.data.title}</h3>
             <div className="relative mt-1 flex items-center gap-x-4">
                 <Image src={profilePic} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
