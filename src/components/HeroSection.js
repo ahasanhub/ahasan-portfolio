@@ -26,9 +26,7 @@ const HeroSection = () => {
                         'Software Architect',
                         2000,
                         'Technology Enthusiast',
-                        2000,
-                        'Team Lead',
-                        2000,
+                        2000,                        
                     ]}
                     wrapper="span"
                     cursor={true}

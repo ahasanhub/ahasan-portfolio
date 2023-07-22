@@ -4,7 +4,7 @@ subtitle: "Build a serverless 'hello-world' QR code app with Python and AWS."
 date: "2021-08-14"
 description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
-categories: ["AWS","Cloud"]
+categories: ["dotnet","web"]
 tags: ["AWS","Cloud","web"]
 image: "/images/thumbnail/npm-commands.png"
 images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]

@@ -4,7 +4,7 @@ subtitle: "A full-stack SaaS project with authentication and payments."
 date: "2021-07-12"
 description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
-categories: ["AWS","Cloud"]
+categories: ["sass","css"]
 tags: ["AWS","Cloud","web"]
 image: "/images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
 images: ["/images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]

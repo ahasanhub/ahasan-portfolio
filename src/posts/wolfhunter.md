@@ -4,7 +4,7 @@ subtitle: "Implementing Pokemon-like combat mechanics in PICO-8."
 date: "2020-12-22"
 description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
-categories: ["AWS","Cloud"]
+categories: ["aws","web"]
 tags: ["AWS","Cloud","web"]
 image: "/images/thumbnail/the-snap-store.png"
 images: ["images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]

@@ -4,7 +4,7 @@ subtitle: "Create an AWS account and set up CLI/SDK access."
 date: "2020-12-27"
 description: "Create an AWS account and set up CLI/SDK access."
 author: "Ahasan Habib"
-categories: ["AWS","Cloud"]
+categories: ["aws","cloud"]
 tags: ["AWS","Cloud","web"]
 image: "/images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"
 images: ["/images/thumbnail/How-to-capture-screenshots-in-Raspberry-PI-4.png"]
