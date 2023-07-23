@@ -1,13 +1,12 @@
 "use client"
 import Image  from "next/image";
 import profilePic from 'public/images/site/profile-img.jpg'
-import { slugify } from "@/utils/common";
 import { useRouter } from 'next/navigation'
 import Link from "next/link";
 const PostPreview = ({post}) => {
     const router = useRouter();
-    const categories=post.frontmatter.categories.map(category=>
-       <Link className="text-red-600 hover:underline border-solid border-2 border-indigo-600 rounded px-1 mx-1" href={`/category/${category}`}>{category}</Link>
+    const categories=post.frontmatter.categories.map((category,index)=>
+       <Link key={index} className="text-blue-500 hover:bg-yellow-200 border-solid border-2 border-yellow-400 rounded px-1 mx-1" href={`/category/${category}`}>{category}</Link>
     );
     return (    
     <div className="grid lg:grid-cols-2 border rounded-lg gap-4 h-auto p-4 shadow-md">
@@ -21,7 +20,7 @@ const PostPreview = ({post}) => {
                      </div>
                  </div> */}
                  <div >
-                    {/* {categories} */}
+                    {categories}
                     <Link href={`/posts/${post.slug}`}>
                     <h3 className="text-2xl font-bold text-gray-800 mb-2 ">{post.frontmatter.title}</h3>
                     </Link>
