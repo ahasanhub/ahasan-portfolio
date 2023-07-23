@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from 'path';
 
-export const getPostMetadata = () => {
+ const getPostMetadata = () => {
     const folder = path.join(process.cwd(), 'src/posts');
     //Get files from posts directory
     const files = fs.readdirSync(folder);
@@ -29,7 +29,7 @@ export const getPostMetadata = () => {
     return posts;
 }
 
-
+export default getPostMetadata;
 //Get post metadata by category
 export const getPostMetadataByCategory = (category) => {
     const folder = path.join(process.cwd(), 'src/posts');
