@@ -17,4 +17,4 @@ const TagPage=({params})=>{
          </section>
     );
 }
-export default CategoryPage;
+export default TagPage;
