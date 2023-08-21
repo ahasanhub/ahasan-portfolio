@@ -10,7 +10,7 @@ const HeroSection = () => {
                 src={heorBg}                 
                  fill                
                  sizes="100vw"
-                //style={{ objectFit: "cover" }}
+                 style={{ objectFit: "cover" }}
                  quality={100}
             ></Image>
             <div className='hero-container' >
@@ -19,7 +19,9 @@ const HeroSection = () => {
                     sequence={[
                         'Full-Stack Software Developer',
                         2000,
-                        'Dynamics 365 NAV/BC Developer',
+                        'Dynamics 365 Business Central Developer',
+                        2000,
+                        'Dynamics 365 NAV Developer',
                         2000,
                         'Software  Generalist',
                         2000,

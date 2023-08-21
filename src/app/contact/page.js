@@ -1,10 +1,11 @@
-"use client"
+
 
 
 const ContactPage = () => {
     return (
         <>
-        <div>Contact</div>       
+        <div>Contact</div> 
+          
         </>
      
     );
