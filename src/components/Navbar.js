@@ -17,8 +17,7 @@ const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'About', href: '/about', current: false },
   { name: 'Blog', href: '/blog', current: false },
-  { name: 'Contact', href: '/contact', current: false },
-  { name: 'Reports', href: '#', current: false },
+  { name: 'Contact', href: '/contact', current: false },  
 ]
 const userNavigation = [
   { name: 'Your Profile', href: '#' },
@@ -32,15 +31,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
+    <>      
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-gray-800">
           {({ open }) => (
