@@ -4,7 +4,7 @@ import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import getPostMetadata from '@/utils/getPostMetadata';
 import Image from 'next/image'
-import profilePic from '/public/images/site/profile-img.jpg'
+import profilePic from '../../../../public/images/site/profile-img.jpg'
 
 
 

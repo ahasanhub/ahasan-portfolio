@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import heorBg from 'public/images/site/hero-bg.jpg'
+import heorBg from '../../public/images/site/hero-bg.jpg'
 import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {

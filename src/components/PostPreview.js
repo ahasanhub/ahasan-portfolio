@@ -1,6 +1,6 @@
 "use client"
 import Image  from "next/image";
-import profilePic from 'public/images/site/profile-img.jpg'
+import profilePic from '../../public/images/site/profile-img.jpg'
 import { useRouter } from 'next/navigation'
 import Link from "next/link";
 const PostPreview = ({post}) => {

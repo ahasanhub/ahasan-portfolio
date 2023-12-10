@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import fullstack from 'public/images/site/full-stack-development.png'
+import fullstack from '../../public/images/site/full-stack-development.png'
 
 const HeroDetailSection = () => {
     return (
