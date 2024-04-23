@@ -1,5 +1,8 @@
 import Image from 'next/image'
-import fullstack from '../../public/images/site/full-stack-development.png'
+//import fullstack from '../../public/images/site/full-stack-development.png'
+import fullstack from '../../public/images/site/fullstack-developer.png'
+import dynamicsnav from '../../public/images/site/dynamics-nav-bc.png'
+import devops from '../../public/images/site/Devops.png'
 
 const HeroDetailSection = () => {
     return (
@@ -41,7 +44,7 @@ const HeroDetailSection = () => {
                     </div>
                 
                <div>
-                <Image src={fullstack} height={500} width={600} alt='profile picture'></Image>
+                <Image src={dynamicsnav} height={500} width={600} alt='profile picture'></Image>
                </div>
                     
                     <div>
@@ -69,7 +72,7 @@ const HeroDetailSection = () => {
                 {/* </div>
                 <div className="grid grid-cols-2 gap-4 my-8"> */}
                     <div>
-                        <Image src={fullstack} height={500} width={600} alt='profile picture'></Image>
+                        <Image src={devops} height={500} width={600} alt='profile picture'></Image>
                     </div>
                     
                     <div>
